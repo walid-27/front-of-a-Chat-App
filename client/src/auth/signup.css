@@ -1,0 +1,166 @@
+.signup {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.534);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/bgCafee.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+    
+}
+.form-signup{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+
+.logo-sign{
+    background-color: rgb(218, 101, 6);
+    padding: 20px;
+    margin-top: 20px;
+    width: 5%;
+    height: 5%;
+    text-align: center;
+    border-radius: 40%;
+    color: white;
+}
+.form-signup h3{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 29px;
+
+}
+.form-signup .p-sign{
+    font-size: 16px;
+     color: rgb(75, 74, 74);
+}
+label{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 1.4rem 0px;
+    color: rgb(75, 74, 74);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.form-signup input{
+    width: 100%;
+    margin: 0.3rem 0px;
+    padding: 0.6rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+}
+
+.btn-next{
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.btn-form{
+   width: 100%;
+   border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-signup button{
+    font-size: 20px;
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(214, 97, 1);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.658);
+    color: white;
+    transition: 0.2s;
+
+}
+.img-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img-forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.img-forms {
+  position: relative;
+  display: inline-block;
+}
+
+.img-forms img {
+  display: block;
+  border: 1px solid black;
+}
+
+.img-forms::after {
+  content: "📷";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.log-link{
+    margin: 18px;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+p span{
+    color: orangered;
+    text-decoration: none;
+}
+.btn-upload-pdp{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 19px;
+    margin-top: 0px;
+   
+    background-color: transparent;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+button:hover{
+    background-color:rgba(214, 97, 1, 0.904);
+    color: black;
+}
